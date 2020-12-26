@@ -23,7 +23,7 @@ public class OpenApiConfig {
      * @return the open api
      */
 
-     @Bean(name = "multipartResolver")
+    /* @Bean(name = "multipartResolver")
      public CommonsMultipartResolver commonsMultipartResolver(){
          return new CommonsMultipartResolver();
      }
@@ -54,5 +54,5 @@ public class OpenApiConfig {
                                 .termsOfService("http://swagger.io/terms/")
                                 .license(new License().name("Apache 2.0").url("http://springdoc.org")));
     }
-
+*/
 }

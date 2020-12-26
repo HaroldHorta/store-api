@@ -5,13 +5,13 @@ import com.company.storeapi.model.payload.response.finance.ResponseExpensesDTO;
 import java.text.SimpleDateFormat;
 import java.util.HashSet;
 import java.util.Set;
-import javax.annotation.processing.Generated;
+import javax.annotation.Generated;
 import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2020-12-24T15:28:47-0500",
-    comments = "version: 1.3.1.Final, compiler: javac, environment: Java 14.0.1 (Oracle Corporation)"
+    date = "2020-12-24T18:15:25-0500",
+    comments = "version: 1.3.1.Final, compiler: javac, environment: Java 11.0.7 (Oracle Corporation)"
 )
 @Component
 public class ExpensesMapperImpl extends ExpensesMapper {
